@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import './HomePage.css';
 
 const HomePage = () => {
-    const [products, setProducts] = useState([""]);
+    const [products, setProducts] = useState([]);
 
     useEffect (() => {
         fetch('https://apps.kodim.cz/react-2/xxxmuck/products')
